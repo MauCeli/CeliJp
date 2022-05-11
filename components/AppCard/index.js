@@ -2,7 +2,6 @@ export default function AppCard({ children }) {
   return (
     <>
       <div className="card">{children}
-      asd
       </div>
       <style jsx>{`
         .card {
@@ -17,7 +16,7 @@ export default function AppCard({ children }) {
         }
         @media(min-width: 768px){
           .card{
-            flex-basis: calc(50% - 1rem);
+            flex-basis: calc(60% - 1rem);
           }
           }
 

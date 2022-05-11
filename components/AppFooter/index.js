@@ -3,12 +3,14 @@ import Link from "next/link";
 export default function AppFooter({ children }) {
   return (
     <>
+    <div>
       <footer>
         <div className="footer-content">
          
           
         </div>
       </footer>
+    </div>
       <style jsx>{`
         footer {
           position: absolute;
