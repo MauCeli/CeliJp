@@ -21,7 +21,7 @@ export default function Home() {
           <div>
             <AppButton>
               <Link href="/info">
-                <h2>始める!</h2>
+                <a>始める!</a>
               </Link>
               {/* <Progress width={24} height={24} /> */}
             </AppButton>
@@ -29,6 +29,9 @@ export default function Home() {
         </section>
         
       </AppLayout>
+      <AppFooter >
+        
+      </AppFooter>
 
       <style jsx>
         {`
@@ -54,14 +57,17 @@ export default function Home() {
           h2 {
             color: ${color.secondary};
             font-size: 16px;
-            margin: 0;
+            margin-top: 10px;
           }
           .image {
             margin: 0px;
             width: 100px;
           }
           a{
-            
+            color: ${color.secondary};
+            font-size: 16px;
+            margin-top: 10px;
+            text-decoration: none;
           }
         `}
       </style>

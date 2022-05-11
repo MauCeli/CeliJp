@@ -6,9 +6,17 @@ import AppCard from "../../components/AppCard";
 import AppCardContainer from "../../components/AppCardContainer";
 import AppFooter from "../../components/AppFooter";
 import AppLayoutMenu from "../../components/AppLayoutMenu";
+import AppHeader from "../../components/AppHeader";
+import { color } from "../../styles/theme";
 export default function Info() {
   return (
     <>
+     <title>日本語Celijp</title>
+      <meta name="description" content="Listo para un desafío" />
+      <link rel="icon" href="/favicon.ico" />
+      <AppHeader>
+      </AppHeader>
+      
       <AppLayoutMenu>
         <AppMenu>
           <AppCard>
@@ -40,6 +48,7 @@ export default function Info() {
           </AppCard>
         </AppMenu>
       </AppLayoutMenu>
+   
 
       <AppFooter></AppFooter>
 
@@ -63,6 +72,12 @@ export default function Info() {
         img {
           width: 50%;
           margin-bot: 0;
+        }
+        a{
+          color: ${color.secondary};
+            font-size: 16px;
+            margin-top: 10px;
+            text-decoration: none;
         }
       `}</style>
     </>

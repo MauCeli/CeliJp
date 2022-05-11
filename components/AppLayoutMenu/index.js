@@ -7,8 +7,9 @@ export default function AppLayoutMenu({ children }) {
         <main>
           {children}
         </main>
+  
       </div>
-      <AppFooter></AppFooter>
+     
       {/* <style jsx>{``}</style>
       <style jsx global>{``}</style> */}
       <style jsx>{styles}</style>

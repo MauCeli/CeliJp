@@ -6,14 +6,14 @@ export default function AppFooter({ children }) {
     <div>
       <footer>
         <div className="footer-content">
-         
+         <h3 >日本語Celijp！・アルゼンチン・フフイから世界へ！</h3>
           
         </div>
       </footer>
     </div>
       <style jsx>{`
         footer {
-          position: absolute;
+          position: relative;
           bottom: 0;
           left: 0;
           right: 0;
@@ -39,6 +39,7 @@ export default function AppFooter({ children }) {
           }
         }
         h3{
+          margin-left:10px;
           cursor:pointer;
 
         }

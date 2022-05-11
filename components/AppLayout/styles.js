@@ -203,11 +203,14 @@ export default css`
     display: grid;
     height: 100vh;
     place-items: center;
+    margin:0;
+    padding:0;
   }
   main {
     background: rgba(255, 255, 255, 0.12);
-    border-radius: 10px;
-    box-shadow: 0 100px 205px rgba(0, 0, 0, 0.2);
+    
+    box-shadow: inset 0px 0px 122px 15px rgba(0,0,0,0.53);
+    border-radius: 0px;
     backdrop-filter: blur(0.9px);
     -webkit-backdrop-filter: blur(8.9px);
     height: 100%;
@@ -217,6 +220,8 @@ export default css`
     main {
       height: 42vh;
       width: ${breakpoints.mobile};
+      box-shadow: 0px 0px 122px 200px rgba(0,0,0,0.53);
+      border-radius: 10px;
     }
   }
 `;

@@ -11,6 +11,7 @@ export default function AppFooter({ children, onClick }) {
           font-weight: 800;
           font-size: 16px;
           padding: 1px 24px;
+          margin-bottom: 1rem;
           cursor: pointer;
           transition: all 0.5s;
           align-items: bottom;
