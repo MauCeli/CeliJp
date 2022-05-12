@@ -31,6 +31,12 @@ export default function Planes() {
           </AppCard>
         </AppMenu>
       </AppLayoutMenu>
+      <AppButton>
+          <Link href="/">
+            <a>始める!</a>
+          </Link>
+          <Progress width={24} height={24} />
+        </AppButton>
     </>
   );
 }

@@ -1,5 +1,4 @@
 import styles, { globalStyles } from "./styles";
-import AppFooter from "/components/AppFooter";
 export default function AppLayoutMenu({ children }) {
   return (
     <>
