@@ -1,5 +1,4 @@
-import Link from "next/link";
-import styles, { globalStyles } from "./styles";
+import styles from "./styles";
 export default function AppFooter({ children }) {
   return (
     <>
@@ -11,8 +10,7 @@ export default function AppFooter({ children }) {
         </div>
       </footer>
     </div>
-      <style jsx>{`
-      `}</style>
+    <style jsx>{styles}</style>
     </>
   );
 }
