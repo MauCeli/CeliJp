@@ -13,6 +13,7 @@ export const globalStyles = css.global`
     background-size: 20px 20px;
     font-family: "Noto Sans JP", sans-serif;
     font-family: "Zen Maru Gothic", sans-serif;
+    
   }
   html {
     line-height: 1.15; /* 1 */
@@ -202,6 +203,7 @@ export default css`
   div {
     display: grid;
     height: 100vh;
+    place-content: center;
     place-items: center;
   }
   main {

@@ -2,15 +2,12 @@ import styles from "./styles";
 export default function AppFooter({ children }) {
   return (
     <>
-    <div>
       <footer>
         <div className="footer-content">
-         <h3 >日本語Celijp！・アルゼンチン・フフイから世界へ！</h3>
-          
+          <h3>日本語Celijp！・アルゼンチン・フフイから世界へ！</h3>
         </div>
       </footer>
-    </div>
-    <style jsx>{styles}</style>
+      <style jsx>{styles}</style>
     </>
   );
 }

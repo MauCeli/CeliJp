@@ -7,17 +7,22 @@ import AppCardContainer from "../../components/AppCardContainer";
 import AppFooter from "../../components/AppFooter";
 import AppLayoutMenu from "../../components/AppLayoutMenu";
 import AppHeader from "../../components/AppHeader";
+import AppTextScroller from "../../components/AppTextScroller"
 import { color } from "../../styles/theme";
+
 export default function Info() {
   return (
     <>
      <title>日本語Celijp</title>
       <meta name="description" content="Listo para un desafío" />
       <link rel="icon" href="/favicon.ico" />
+     
       <AppHeader>
       </AppHeader>
-      
+      <AppTextScroller>
+      </AppTextScroller>
       <AppLayoutMenu>
+      
         <AppMenu>
           <AppCard>
             <AppCardContainer>
