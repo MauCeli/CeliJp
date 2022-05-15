@@ -9,11 +9,10 @@ export const globalStyles = css.global`
 //estilos locales Applayout
 export default css`
     
-    .menu {
-          max-width: 1000px;
+    .section_info {
+          max-width: 1200px;
           width: 95%;
-          margin: 1rem auto;
-          margin-bottom:1rem;
+          margin: 0 auto;
           
         }
         @media (min-width: 768px) {

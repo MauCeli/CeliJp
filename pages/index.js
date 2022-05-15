@@ -3,6 +3,7 @@
 import AppLayout from "/components/AppLayout";
 import AppButton from "/components/AppButton";
 import Progress from "/components/Icons/Progress";
+import AppTextScroller from "../components/AppTextScroller";
 import { color } from "../styles/theme";
 import Link from "next/link";
 import AppFooter from "../components/AppFooter";
@@ -14,6 +15,8 @@ export default function Home() {
       <meta name="description" content="Listo para un desafío" />
       <link rel="icon" href="/favicon.ico" />
       <AppLayout>
+      <AppTextScroller>
+      </AppTextScroller>
         <section>
           <img src="/logo1.png" />
           <h1>日本語Celijp</h1>

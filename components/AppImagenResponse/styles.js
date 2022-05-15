@@ -8,8 +8,5 @@ export const globalStyles = css.global`
 
 //estilos locales Applayout
 export default css`
-          .container {
-            padding-top:1rem;
-            text-align: center;
-          }
+
 `;

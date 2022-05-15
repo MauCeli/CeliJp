@@ -9,6 +9,7 @@ import AppLayoutMenu from "../../components/AppLayoutMenu";
 import AppHeader from "../../components/AppHeader";
 import AppTextScroller from "../../components/AppTextScroller"
 import { color } from "../../styles/theme";
+import AppDescription from "../../components/AppDescription";
 
 export default function Info() {
   return (
@@ -19,9 +20,10 @@ export default function Info() {
      
       <AppHeader>
       </AppHeader>
+      
       <AppTextScroller>
       </AppTextScroller>
-      <AppLayoutMenu>
+     
       
         <AppMenu>
           <AppCard>
@@ -52,11 +54,14 @@ export default function Info() {
             </div>
           </AppCard>
         </AppMenu>
-      </AppLayoutMenu>
+        <AppDescription>
+          
+        </AppDescription>
+        <AppFooter></AppFooter>
+
    
 
-      <AppFooter></AppFooter>
-
+      
       <style jsx>{`
         @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Zen+Maru+Gothic:wght@700&display=swap");
         html,
