@@ -7,16 +7,18 @@ export default css`
           width: 100%;
           height: 100%;
           text-align: center;
-          padding:1rem;
+          box-shadow: inset 0px 0px 122px 15px rgba(0,0,0,0.53);
         }
         .card:hover {
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
         @media(min-width:${breakpoints.mobile}){
           .card{
-            flex-basis: calc(60% - 1rem);
+            flex-basis: calc(20% - rem);
+            grid-row-gap: 1rem;
           }
         }
+       
 
         
 `;

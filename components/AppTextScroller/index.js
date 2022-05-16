@@ -3,7 +3,7 @@ export default function AppTextScroller() {
   return (
 <>
 <div className="scroll-left">
-<p className="neon">アルゼンチンフフイから世界へ「日本語Celijp！」</p>
+<p className="neon">・アルゼンチン・フフイから世界へ！（ ＾ω＾）・</p>
 </div>
 <style jsx>{styles}</style>
 

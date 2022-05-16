@@ -15,7 +15,9 @@ export default function Home() {
       <meta name="description" content="Listo para un desafío" />
       <link rel="icon" href="/favicon.ico" />
       <AppLayout>
+        
       <AppTextScroller>
+      <a>・アルゼンチン・フフイから世界へ！（ ＾ω＾）・</a>
       </AppTextScroller>
         <section>
           <img src="/logo1.png" />
@@ -24,7 +26,7 @@ export default function Home() {
           <div>
             <AppButton>
               <Link href="/info">
-                <a>始める!</a>
+                <a>始める</a>
               </Link>
               {/* <Progress width={24} height={24} /> */}
             </AppButton>
@@ -67,10 +69,9 @@ export default function Home() {
             width: 100px;
           }
           a{
-            color: ${color.secondary};
             font-size: 16px;
-            margin-top: 10px;
             text-decoration: none;
+
           }
         `}
       </style>

@@ -15,7 +15,9 @@ export default function Horarios() {
       <meta name="description" content="Listo para un desafío" />
       <link rel="icon" href="/favicon.ico" />
         <AppHeader></AppHeader>
-        <AppTextScroller></AppTextScroller>
+        <AppTextScroller>
+        ・アルゼンチン・フフイから世界へ！（ ＾ω＾）・
+        </AppTextScroller>
         <AppMenu>
           <AppDescription>
             

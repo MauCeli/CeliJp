@@ -10,16 +10,23 @@ export const globalStyles = css.global`
 export default css`
     
     .menu {
+          display: grid;
+          grid-column-gap: 1rem;
           max-width: 1000px;
           width: 95%;
-          margin: 1rem auto;
+          margin:auto;
           margin-bottom:1rem;
+          margin-top:1rem;
+          gap:1rem;
+          
           
         }
         @media (min-width: 768px) {
           .menu {
             display: flex;
+            
             justify-content: space-between;
+            
           }
         }   
 `;

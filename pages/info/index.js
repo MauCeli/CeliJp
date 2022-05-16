@@ -22,8 +22,14 @@ export default function Info() {
       </AppHeader>
       
       <AppTextScroller>
+      
       </AppTextScroller>
-     
+      
+     <AppMenu>
+     <AppCard>
+      <AppDescription/>
+      </AppCard>
+     </AppMenu>
       
         <AppMenu>
           <AppCard>
@@ -54,9 +60,6 @@ export default function Info() {
             </div>
           </AppCard>
         </AppMenu>
-        <AppDescription>
-          
-        </AppDescription>
         <AppFooter></AppFooter>
 
    
